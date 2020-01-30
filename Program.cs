@@ -11,9 +11,11 @@ namespace myApp
 		Console.WriteLine(Reverse(input));
         }
 		
-	static string Reverse (string word){
+	static string Reverse (string word)
+	{
 		string drow = null;
-		for(int i = word.Length - 1; i >= 0; i--){
+		for(int i = word.Length - 1; i >= 0; i--)
+		{
 		drow += word[i];
 		}
 			
